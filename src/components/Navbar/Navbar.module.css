@@ -1,0 +1,19 @@
+.collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 220ms ease-in-out;
+  will-change: max-height;
+  background: transparent;
+}
+
+.open {
+  max-height: 16rem;
+}
+
+@media screen and (max-width: 767px) {
+  
+  .link {
+    display: none;
+  }
+
+}
