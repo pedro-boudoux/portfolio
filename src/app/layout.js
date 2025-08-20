@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { BubbleBackground } from "@/components/animate-ui/backgrounds/gradient";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -11,7 +12,10 @@ const jetbrainsMono = JetBrains_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={jetbrainsMono.className}>
-      <body>{children}</body>
+      <body>
+        {children}
+
+      </body>
     </html>
   );
 }
