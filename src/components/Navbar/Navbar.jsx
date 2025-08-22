@@ -6,9 +6,11 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className=" m-[15px] fixed top-0 inset-x-0 z-50 glass ">
+    <div className="fixed top-0 inset-x-0 z-50">
+      <div className="flex items-center justify-center p-5">
+        <nav className="glass w-full max-w-5xl min-w-[300px] md:min-w-[80vw]">
       <div className="mx-auto  px-4 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between">
+        <div className="relative flex h-16 items-center justify-between text-xl">
           {/* Left: Logo */}
           <a href="/" className="transition-transform duration-200 hover:-translate-y-[3px] flex-shrink-0 flex items-center gap-2">
           
@@ -23,7 +25,7 @@ export default function Navbar() {
           <div className={`${styles.link} pointer-events-auto absolute left-1/2 -translate-x-1/2 transform flex items-center gap-8 text-white `}>
   <a href="#skills" className="transition-transform duration-200 hover:-translate-y-[3px]"> <span className="text-yellow-500">❯ </span>skills</a>
   <a href="#projects" className="transition-transform duration-200 hover:-translate-y-[3px]"><span className="text-blue-500">❯ </span>projects</a>
-  <a href="#about-me" className="transition-transform duration-200 hover:-translate-y-[3px]"><span className="text-red-500">❯ </span>about-me</a>
+  <a href="#about-me" className="transition-transform duration-200 hover:-translate-y-[3px]"><span className="text-red-500">❯ </span>about-me </a>
 </div>
 
           {/* Right: Contact (desktop) + Hamburger (mobile) */}
@@ -34,7 +36,6 @@ export default function Navbar() {
 >
   <span className="text-green-500 ">❯ </span>contact-me
 </a>
-
 
             <button
               className="inline-flex items-center justify-center p-2 md:hidden text-white"
@@ -69,6 +70,8 @@ export default function Navbar() {
           <a href="#contact-me" className="block px-2 py-2 text-white"><span className="text-green-500 ">❯ </span>contact-me</a>
         </div>
       </div>
-    </nav>
+        </nav>
+      </div>
+    </div>
   );
 }
