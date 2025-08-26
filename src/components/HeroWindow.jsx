@@ -28,6 +28,35 @@ export default function Hero() {
       </div>
 
       <div className="glass p-4 rounded-xl w-full shadow-lg font-mono text-white text-xl h-[325px] lg:h-auto lg:min-h-[85vh] lg:min-w-[39.5vw] sm:min-h-screen">
+        
+        <div className="mb-4">
+          <TerminalPrompt path="/home/about-me" size="6xl" />
+        </div>
+
+        <p className="text-white mt-4">
+        <span className="text-green-500">❯ </span> cat me.txt
+      </p>
+
+      <div className="flex gap-4 flex-wrap mt-4 mb-4 text-md md:text-xl">
+        <p className="md:text-xl text-md whitespace-pre-wrap">
+          Hi, I'm Pedro
+        </p>
+
+
+        <p className="md:text-xl text-md whitespace-pre-wrap">
+          I'm glad you found my portfolio! (hope you like it as much as I enjoyed building it). I'm a Computer Science student based out of Hamilton. I'm passionate about computers, programming and building cool stuff! It all started one day when I was about 10 years old and had to set up my first Minecraft server, ever since then, I've been hooked and I've been loving every line of code I've written since. When I'm away from the terminal, I'm either teaching myself new things, getting into serious argumetns about soccer, or listening to music. 
+        </p>
+
+        <p className="md:text-xl text-md whitespace-pre-wrap">
+          If you'd like to contact me or see what I'm up to, you can find my LinkedIn and GitHub below, if you'd like to send me an email, you can do so at the bottom of the page! :)
+        </p>
+
+        <div className="md:text-xl text-md whitespace-pre-wrap flex gap-[10vw] mt-4 justify-center items-center min-w-full">
+          <a className="hover:bg-white hover:text-black transition px-2 py-1 rounded-sm border" href="https://github.com/pedro-boudoux" target="_blank" rel="noopener noreferrer">GITHUB</a>
+          <a className="hover:bg-white hover:text-black transition px-2 py-1 rounded-sm border" href="https://www.linkedin.com/in/pedroboudoux/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+        </div>
+
+        </div>
 
       </div>
       

@@ -39,13 +39,13 @@ export default function ContactWindow() {
                 <span className="text-green-500">❯ </span> portfolio --get contact-form
             </p>
 
-            <form onSubmit={send} className="flex flex-col gap-4 text-md lg:text-xl min-w-full max-w-3xs px-4">
+            <form onSubmit={send} className="flex flex-col gap-4 text-md md:text-xl lg:text-xl min-w-full max-w-3xs px-4">
 
                 <label className="flex items-center md:justify-start md:gap-5 justify-between">
                     <span className="text-nowrap">--name: </span>
                     <div className="text-nowrap">
                         "
-                        <input className="border-b-2 w-40 md:w-4xl" type="text" name="name" />
+                        <input className="border-b-2 w-[7em] md:w-[30em] lg:w-[30vw]" type="text" name="name" />
                         "
                     </div>
                 </label>
@@ -54,7 +54,7 @@ export default function ContactWindow() {
                     <span className="text-nowrap">--email: </span>
                     <div className="text-nowrap">
                         "
-                        <input className="border-b-2 w-40 md:w-4xl" type="text" name="email" />
+                        <input className="border-b-2 w-[7em] md:w-[30em] lg:w-[30vw]" type="text" name="email" />
                         "
                     </div>
                 </label>
@@ -63,7 +63,7 @@ export default function ContactWindow() {
                     <span className="text-nowrap">--subject: </span>
                     <div className="text-nowrap">
                         "
-                        <input className="border-b-2 w-40 md:w-4xl" type="text" name="subject" />
+                        <input className="border-b-2 w-[7em] md:w-[30em] lg:w-[30vw]" type="text" name="subject" />
                         "
                     </div>
                 </label>
@@ -74,7 +74,7 @@ export default function ContactWindow() {
                     <div className="text-nowrap flex items-start">
                         "
                         <textarea
-                            className="border-b-2 resize-none overflow-hidden w-40 md:w-4xl"
+                            className="border-b-2 resize-none overflow-hidden w-[7em] md:w-[30em] lg:w-[30vw]"
                             name="message"
                             rows={1}
                             onInput={(e) => {
