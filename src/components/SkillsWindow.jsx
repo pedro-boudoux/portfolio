@@ -79,7 +79,7 @@ export default function SkillsWindow() {
 
   return (
     
-    <div  className="glass p-4 rounded-xl w-full max-w-5xl min-w-[300px] shadow-lg font-mono text-white text-md md:text-xl min-h-[90vh]  md:min-h-[85vh] md:min-w-[80vw] sm:min-h-[80vh]">
+    <div id="skills" className="glass p-4 rounded-xl w-full max-w-5xl min-w-[300px] shadow-lg font-mono text-white text-md md:text-xl min-h-[90vh]  md:min-h-[85vh] md:min-w-[80vw] sm:min-h-[80vh]">
       
       <div className="w-full">
         <TerminalPrompt path="~/Skills/" size="4xl"/>

@@ -6,8 +6,11 @@ import ProjectsWindow from "@/components/ProjectsWindow";
 import ContactWindow from "@/components/ContactWindow";
 
 export default function Home() {
+
+  
+
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden">
+    <div id="top" className="relative min-h-screen w-full overflow-x-hidden">
 
       <Navbar />
       <section className="min-h-screen flex items-center justify-center p-5">
