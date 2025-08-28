@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from 'react'
 import autoAnimate from '@formkit/auto-animate'
 import TerminalPrompt from './TerminalPrompt' // Make sure this exists
-import { Divide } from 'lucide-react'
 
 const projects = [
   {
@@ -117,11 +116,14 @@ export default function ProjectsWindow() {
                 <div key={section}>
                   <strong className="capitalize md:text-2xl text-sm">{section}:</strong>
                   <div className="flex flex-wrap gap-2 ml-2 mb-4">
-                    {stack.map((item) => (
-                      <div key={item} className="md:text-xl text-sm">
+                    <ul>
+                      {stack.map((item) => (
+                      <li key={item} className="md:text-xl text-sm">
                         → {item}
-                      </div>
+                      </li>
                     ))}
+                    </ul>
+                    
                   </div>
                 </div>
               ) : null

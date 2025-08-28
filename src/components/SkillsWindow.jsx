@@ -50,7 +50,7 @@ const skillsData = {
     { name: 'Express', level: 85 },
     { name: 'Node.js', level: 95 },
   ],
-  'devTools': [
+  dev_tools: [
     { name: 'Git', level: 95 },
     { name: 'Postman', level: 80 },
     { name: 'ESLint', level: 80 },
