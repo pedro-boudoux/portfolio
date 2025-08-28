@@ -44,7 +44,7 @@ export default function Hero() {
 
 
         <p className="md:text-xl text-md whitespace-pre-wrap">
-          I'm glad you found my portfolio! (hope you like it as much as I enjoyed building it). I'm a Computer Science student based out of Hamilton. I'm passionate about computers, programming and building cool stuff! It all started one day when I was about 10 years old and had to set up my first Minecraft server, ever since then, I've been hooked and I've been loving every line of code I've written since. When I'm away from the terminal, I'm either teaching myself new things, getting into serious argumetns about soccer, or listening to music. 
+          I'm glad you found my portfolio! (hope you like it as much as I enjoyed building it). I'm a Computer Science student based out of Hamilton. I'm passionate about computers, programming and building cool stuff! It all started one day when I was about 10 years old and had to set up my first Minecraft server, ever since then, I've been hooked and I've been loving every line of code I've written since. When I'm away from the terminal, I'm either teaching myself new things, getting into serious arguments about soccer, or listening to music. 
         </p>
 
         <p className="md:text-xl text-md whitespace-pre-wrap">
