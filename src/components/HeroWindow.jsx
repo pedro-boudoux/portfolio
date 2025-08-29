@@ -3,9 +3,9 @@ import TextType from './custom/TextType';
 
 export default function Hero() {
   return (
-    <div className="w-full max-w-5xl mt-[calc(104px+20px)] lg:mt-16 min-w-[300px] md:min-w-[80vw] mx-auto flex items-center justify-center gap-[2vh] flex-col lg:flex-row">
+<div className="w-full max-w-5xl mt-[calc(104px+20px)] lg:mt-20 min-w-[300px] md:min-w-[80vw] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[2vh] items-stretch justify-center">
 
-      <div className="glass p-4 rounded-xl w-full shadow-lg font-mono text-white text-xl h-[325px] lg:h-auto lg:min-h-[85vh] lg:min-w-[39.5vw] flex flex-col justify-center sm:min-h-screen">
+  <div className="glass p-4 rounded-xl w-full shadow-lg font-mono text-white text-xl h-[325px] lg:h-auto flex flex-col justify-center sm:min-h-screen">
         <div className="mb-4">
           <TerminalPrompt path="/home/" size="6xl" />
         </div>
@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div id="about-me" className="glass p-4 rounded-xl w-full shadow-lg font-mono text-white text-md md:text-xl h-auto mt-[40px] lg:mt-0 min-h-[325px] lg:min-h-[85vh] lg:min-w-[39.5vw]">
+  <div id="about-me" className="glass p-4 rounded-xl w-full shadow-lg font-mono text-white text-md md:text-xl h-auto mt-[40px] lg:mt-0 min-h-[325px] lg:min-h-0">
         
         <div className="mb-4">
           <TerminalPrompt path="/home/about-me" size="6xl" />
